@@ -1,0 +1,45 @@
+{
+    "best_model": "RandomForest",
+    "task_type": "classification",
+    "target_column": "mudou_medicacao",
+    "metrics": {
+        "LogisticRegression": {
+            "accuracy": 0.5566037735849056,
+            "f1_score": 0.5247153143760315
+        },
+        "DecisionTree": {
+            "accuracy": 0.5107103218645949,
+            "f1_score": 0.512238909468937
+        },
+        "RandomForest": {
+            "accuracy": 0.558157602663707,
+            "f1_score": 0.5392875125646117
+        },
+        "GradientBoosting": {
+            "accuracy": 0.5561598224195339,
+            "f1_score": 0.5375264953162261
+        },
+        "LightGBM": {
+            "accuracy": 0.5572697003329634,
+            "f1_score": 0.5279360955626454
+        }
+    },
+    "column_types": {
+        "numeric": [],
+        "categorical": [
+            "sexo",
+            "grupo_risco",
+            "carga_viral",
+            "efeitos_colaterais"
+        ],
+        "datetime": [
+            "cd4"
+        ],
+        "text": [
+            "id_paciente",
+            "nome",
+            "adesao_tratamento_per"
+        ]
+    },
+    "feature_importance": {}
+}
