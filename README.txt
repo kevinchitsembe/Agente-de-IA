@@ -10,7 +10,7 @@ Notes about the code:
 * The application.py file contains the frontend code and can be executed with the command: streamlit run application.py
 * The main.py file is the backend executable.
 
---------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------
 
 Esta plataforma é um Agente de Inteligência Artificial dedicado à análise de dados.
 O Agente está diretamente conectado à base de dados e responde às perguntas utilizando exclusivamente as informações nela armazenadas.
